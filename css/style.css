@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+:root {
+    --whitecolor: white;
+}
+.header {
+    background-image: url(../images/Palms.jpg);
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.header-div {
+    width: 1110px;
+    height: 205px;
+}
+.top-div {
+    width: 1110px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-div {
+    width: 185px;
+    height: 85px;
+}
+.nav-li {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    color: white;
+}
+.zetta {
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitecolor)
+}
+li {
+    margin-right: 49px;
+}
+li:last-child {
+    margin-right: 0;
+}
+.wing {
+    margin-top: 0;
+}
+/* bottom-div */
+.bottom-div {
+    margin-top: 96px;
+}
+.header-title {
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--whitecolor)
+}
+.stick-div {
+    height: 19px;
+    width: 1px;
+    background-color: white;
+    display: inline-block;
+    margin: 18px 16.5px 0 16.5px;
+}
+.home {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+        color: var(--whitecolor)
+}
+.contact {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--whitecolor)
+}
