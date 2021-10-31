@@ -35,6 +35,12 @@
   font-family: "Poppins", sans-serif;
   display: flex;
 }
+.fas {
+  display: none;
+  width: 30px;
+  height: 30px;
+  color: var(--whitecolor);
+}
 .zetta {
   font-family: "Poppins", sans-serif;
   color: var(--whitecolor);
@@ -90,7 +96,7 @@ iframe {
 .section-div {
   max-width: 378px;
   width: 100%;
-  height: 135px;
+
   margin-top: 56px;
   margin-left: 139px;
   margin-right: 139px;
